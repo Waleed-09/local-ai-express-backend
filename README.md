@@ -17,7 +17,7 @@ A robust, cloud-free Node.js/Express.js REST API designed to act as a communicat
 ## 📊 Architecture & Data Flow
 1. **Client Request:** External Client (Postman/Mobile) sends a `POST` request with a text prompt to the Express server.
 2. **Backend Routing:** Express captures the payload and forwards it to Ollama's local engine via an HTTP stream bridge.
-3. **Local Compiling:** The local hardware (RAM/GPU) processes the model weights using the `llama3.2` architecture.
+3. **Local Compiling:** The local hardware (RAM/GPU) processes the model weights using the `llama3.2` architecture
 4. **API Response:** The generated output is sent back to the initial client endpoint with a standard `200 OK` status.
 
 ## ⚡ API Endpoint Documentation
